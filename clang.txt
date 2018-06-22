@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+int AX,BX,CX,DX,EX,FX,GX,HX;
+int B;
+int A;
+int C;
+int D;
+const int E;
+scanf("%d",&AX);
+scanf("%d",&BX);
+A=AX;
+B=BX;
+CX=AX+BX;
+X:
+scanf("%d",&AX);
+DX=AX-BX;
+printf("%d ",DX);
+printf("%d ",CX);
+if(CX == DX){
+C=CX;
+printf("%d ",CX);
+}
+else
+{
+D=DX;
+printf("%d ",DX);
+goto X;
+
+}
+printf("%d ",AX);
+return 0;
+}
